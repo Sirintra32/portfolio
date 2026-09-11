@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-code"></i> PORT<span>FOLIO</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn btn-gold">Hire Me <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content reveal">
+            <span class="badge"><span class="status-dot"></span> AVAILABLE FOR WORK</span>
+            <h1>Hello, I'm SIRINTRA</h1>
+            <p>Hello and welcome to my website! My name is Sirintra Aukkametee. I'm a developer, and I'm here to help
+                you with your projects if you need assistance.</p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">ดูผลงาน <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="btn btn-outline">ดาวน์โหลด CV <i class="fa-solid fa-download"></i></a>
+            </div>
+
+            <div class="tech-stack">
+                <p>Tech Stack:</p>
+                <div class="tech-icons">
+                    <i class="fa-brands fa-html5" title="HTML5"></i>
+                    <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                    <i class="fa-brands fa-js" title="JavaScript"></i>
+                    <i class="fa-brands fa-react" title="React"></i>
+                    <i class="fa-brands fa-node-js" title="Node.js"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image-container reveal">
+            <div class="img-bg-shape"></div>
+            <div class="dot-pattern"></div>
+            <div class="img-wrapper">
+                <img src="img/IMG_7141.jpg" alt="Profile Picture">
+            </div>
+            <div class="code-snippet">
+                const developer = {<br>
+                &nbsp;&nbsp;name: <span>"สิรินทรา อัคคเมธี"</span>,<br>
+                &nbsp;&nbsp;nickname: <span>"บัว (Bua)"</span>,<br>
+                &nbsp;&nbsp;role: <span>"Frontend Dev Intern"</span>,<br>
+                &nbsp;&nbsp;status: <span>"สหกิจศึกษา"</span><br>
+                };
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats / About Section -->
+    <section class="stats-section reveal" id="about">
+        <div class="section-title">
+            <span>ABOUT ME</span>
+            <h2>พร้อมเรียนรู้และเติบโตไปกับงานจริง</h2>
+        </div>
+
+
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="stat-info">
+                    <h3>ปี 4</h3>
+                    <p>คณะเทคโนโลยีสารสนเทศ สาขาวิทยาการคอมพิวเตอร์และนวัตกรรมการพัฒนาซอฟต์แวร์(CSI)</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="stat-info">
+                    <h3>[3.50]</h3>
+                    <p>เกรดเฉลี่ยสะสม</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-language"></i></div>
+                <div class="stat-info">
+                    <h3>ภาษาที่สื่อสารได้</h3>
+                    <p>(ไทย/อังกฤษ)</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <div class="stat-info">
+                    <h3>ม.ค. - เม.ย.</h3>
+                    <p>พร้อมเริ่มฝึกสหกิจ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+        <div class="section-title">
+            <span>MY SKILLS</span>
+            <h2>ความสามารถและทักษะ</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                <div class="tag-list">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">C++</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-display"></i> Frontend Development</h3>
+                <div class="tag-list">
+                    <span class="tag">React</span>
+                    <span class="tag">Vite</span>
+                    <span class="tag">Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-server"></i> Backend Development</h3>
+                <div class="tag-list">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">NestJS</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">FastAPI</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-database"></i> Databases, Cloud & Tools</h3>
+                <div class="tag-list">
+                    <span class="tag">MySQL</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">GitHub Pages</span>
+                    <span class="tag">n8n</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+    <section class="projects reveal" id="projects">
+        <div class="section-title">
+            <span>FEATURED PROJECTS</span>
+            <h2>ตัวอย่างผลงานล่าสุด</h2>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card card-dark" onclick="openProjectModal(this)" data-title="FX-SmartHub"
+                data-desc="ระบบแลกเปลี่ยนเงินดิจิทัลที่มีฟีเจอร์ครบถ้วน รองรับการซื้อขาย"
+                data-images="img/f1.png,img/f2.png,img/f3.png,img/f4.png,img/f5.png" data-link="#">
+                <span class="project-number">01</span>
+                <div class="project-img">
+                    <img src="img/f1.png" alt="FX-SmartHub" onerror="this.style.display='none'">
+                </div>
+                <div class="project-info">
+                    <h3>FX-SmartHub</h3>
+                    <p>ระบบแลกเปลี่ยนเงินดิจิทัลที่มีฟีเจอร์ครบถ้วน รองรับการซื้อขาย</p>
+                </div>
+            </div>
+
+            <div class="project-card card-light" onclick="openProjectModal(this)" data-title="Jewelry Management & Chat"
+                data-desc="เว็บจัดแสดงและโชว์สินค้าเครื่องประดับออนไลน์ พร้อมระบบแชทแบบเรียลไทม์โดยไม่ต้องเสียเวลาไปเลืกของดูที่หน้าร้าน"
+                data-images="img/j1.png,img/j2.png,img/j3.png" data-link="#">
+                <span class="project-number">02</span>
+                <div class="project-img">
+                    <img src="img/j1.png" alt="Jewelry Management & Chat" onerror="this.style.display='none'">
+                </div>
+                <div class="project-info">
+                    <h3>Jewelry Management & Chat</h3>
+                    <p>E-commerce platform with real-time WebSocket chat and Admin RBAC.</p>
+                    <span class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+            <div class="project-card card-gold" onclick="openProjectModal(this)" data-title="How to think"
+                data-desc="เป็นแหล่งรวบรวมข้อมูลเกี่ยวกับการรีไซล์เคิลขยะต่างๆเอาไว้ในที่เดียวและเป็นผู้ช่วยที่คอยให้คำแนะนำเกี่ยวกับการรีไซเคิลขยะอย่างถูกวิธี"
+                data-images="img/h2.png,img/h1.png" data-link="#">
+                <span class="project-number">03</span>
+                <div class="project-img">
+                    <img src="img/h1.png" alt="How to think" onerror="this.style.display='none'">
+                </div>
+                <div class="project-info">
+                    <h3>How to think</h3>
+                    <p>เป็นแหล่งรวบรวมข้อมูลเกี่ยวกับการรีไซล์เคิลขยะ</p>
+                    <span class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal / Popup -->
+    <div class="project-modal-overlay" id="projectModal" onclick="closeProjectModalOnOverlay(event)">
+        <div class="project-modal">
+            <button class="project-modal-close" onclick="closeProjectModal()" aria-label="ปิด">&times;</button>
+            <div class="project-modal-img">
+                <img id="modalImg" src="" alt="">
+                <button class="modal-nav modal-nav-prev" onclick="modalPrevImg(event)" aria-label="รูปก่อนหน้า">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="modal-nav modal-nav-next" onclick="modalNextImg(event)" aria-label="รูปถัดไป">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="modal-dots" id="modalDots"></div>
+            </div>
+            <div class="project-modal-body">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDesc"></p>
+                <a id="modalLink" href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact & Footer -->
+    <footer class="contact-footer reveal" id="contact">
+        <div class="footer-content">
+            <div class="footer-box">
+                <h2>อยากร่วมงานกันไหม?</h2>
+                <p style="margin-top: 10px; opacity: 0.8;">สามารถติดต่อสอบถามหรือพูดคุยรายละเอียดได้เสมอค่ะ</p>
+                <a href="mailto:sirintrabua26@gmail.com" class="btn btn-gold" style="margin-top: 20px;">Get In Touch</a>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Sirintra32" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/sirintra.aukkametee" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bua_._bua/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
